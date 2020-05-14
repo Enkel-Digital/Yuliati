@@ -16,14 +16,13 @@
         <!-- Add space for mobile to stay below the floating icons -->
         <br />
         <br />
-        <br />
 
         <v-row align="center" justify="center">
           <v-col cols="10" md="6">
             <base-heading>Welcome!</base-heading>
             <base-text>
               Hello! I am Yuliati and you are looking at my portfolio website!
-              Okay first, who the hell am I? Well, as my friends would descipe
+              Okay first, who the hell am I? Well, as my friends would describe
               me, I am someone with an uncanny personality but honestly I think
               I am more playful and annoying by their standards 😁<br /><br />
               I am super adventurous and I believe that in life, you have
@@ -34,12 +33,15 @@
             <base-btn href="#recent-projects" class="mt-4">
               Learn More!
             </base-btn>
+
+            <base-bubble-2
+              style="transform: rotate(180deg) translate(-200px, -15%);"
+            />
+
+            <br />
+            <br />
           </v-col>
         </v-row>
-
-        <base-bubble-2
-          style="transform: rotate(180deg) translate(-200px, -15%);"
-        />
       </v-col>
     </v-row>
   </section>

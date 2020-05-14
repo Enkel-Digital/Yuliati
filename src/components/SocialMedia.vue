@@ -4,7 +4,7 @@
       v-for="(item, i) in items"
       :key="i"
       fab
-      class="ma-2"
+      class="ma-2 mr-1"
       :color="color"
       :small="true"
       :href="item.link"
