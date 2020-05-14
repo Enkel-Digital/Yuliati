@@ -12,6 +12,10 @@
           Get In Touch
         </base-heading>
 
+        <SocialMedia color="white" />
+
+        <br />
+
         <v-sheet color="transparent" max-width="600">
           <v-text-field color="info" label="Name" solo flat />
 
@@ -31,5 +35,8 @@
 <script>
 export default {
   name: "GetInTouch",
+  components: {
+    SocialMedia: () => import("@/components/SocialMedia"),
+  },
 };
 </script>

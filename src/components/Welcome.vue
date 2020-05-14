@@ -13,18 +13,25 @@
       >
         <base-bubble-1 style="transform: rotate(180deg) translateY(25%);" />
 
+        <!-- Add space for mobile to stay below the floating icons -->
+        <br />
+        <br />
+        <br />
+
         <v-row align="center" justify="center">
           <v-col cols="10" md="6">
             <base-heading>Welcome!</base-heading>
             <base-text>
-              Lorem ipsum dolor sit amet, consectetur ad ipiscin elit. Etiam
-              vulputate augue vel felis gra vida porta. Lorem ipsum dolor sit
-              amet, cons ectetur adipiscing elit.<br />
-              Lorem ipsum dolor sit amet, consectetur ad ipiscin elit. Etiam
-              vulputate augue vel felis gra vida porta. Lorem ipsum dolor sit
-              amet, cons ectetur adipiscing elit.
+              Hello! I am Yuliati and you are looking at my portfolio website!
+              Okay first, who the hell am I? Well, as my friends would descipe
+              me, I am someone with an uncanny personality but honestly I think
+              I am more playful and annoying by their standards 😁<br /><br />
+              I am super adventurous and I believe that in life, you have
+              NOTHING TO LOSE and I am super driven to make my dreams come true.
             </base-text>
-            <base-btn class="mt-4">
+
+            <!-- Go to next section on click -->
+            <base-btn href="#recent-projects" class="mt-4">
               Learn More!
             </base-btn>
           </v-col>

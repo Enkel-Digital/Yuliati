@@ -8,24 +8,19 @@
           Recent Projects
         </base-heading>
 
-        <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br />
-          scin elit. Etiam vulputate augue vel felis gravida<br />
-          porta. Lorem ipsum dolor sit amet.
+        <base-text class="mb-5" style="font-weight: 200;">
+          *Click to learn more.
         </base-text>
+
+        <br />
 
         <v-card color="secondary">
           <v-container class="pa-2">
             <v-row>
-              <v-col
-                v-for="project in projects"
-                :key="project"
-                cols="12"
-                md="6"
-              >
-                <a href="#">
+              <v-col v-for="(project, i) in projects" :key="i" cols="12" md="6">
+                <a :href="project.link" target="_blank">
                   <v-img
-                    :src="require(`@/assets/${project}.jpeg`)"
+                    :src="require(`@/assets/${project.image}.jpeg`)"
                     max-height="300"
                   />
                 </a>
@@ -45,9 +40,25 @@
 <script>
 export default {
   name: "RecentProjects",
-
   data: () => ({
-    projects: ["project1", "project2", "project3", "project4"],
+    projects: [
+      {
+        image: "project1",
+        link: "https://github.com/Enkel-Digital/",
+      },
+      {
+        image: "project2",
+        link: "https://github.com/icecreamforfree/robot-cone",
+      },
+      {
+        image: "project3",
+        link: "https://github.com/icecreamforfree/robot-aglioolio/",
+      },
+      {
+        image: "project4",
+        link: "https://github.com/Enkel-Digital/class-express-app",
+      },
+    ],
   }),
 };
 </script>

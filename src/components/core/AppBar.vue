@@ -6,30 +6,23 @@
     flat
   >
     <v-slide-x-transition>
-      <v-img
+      <!-- Tmp remove the image -->
+      <!-- <v-img
         v-if="showLogo"
         :src="require('@/assets/logo.png')"
         class="shrink"
         contain
         height="50"
-      />
+      /> -->
+
+      <h2 v-if="showLogo" contain height="50">
+        Yuliati
+      </h2>
     </v-slide-x-transition>
 
     <v-spacer />
 
     <social-media />
-
-    <!-- <base-btn
-      class="ml-3"
-      large
-      href="https://store.vuetifyjs.com/product/freelancer-theme-free?ref=freelancer"
-    >
-      Download for Free
-
-      <v-icon right small>
-        mdi-open-in-new
-      </v-icon>
-    </base-btn> -->
   </v-app-bar>
 </template>
 

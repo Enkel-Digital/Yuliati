@@ -10,12 +10,12 @@
           <v-col cols="12">
             <base-bubble-2 style="transform: translateX(55%);" />
             <base-heading class="info--text">
-              Services
+              Skills and Experiences
             </base-heading>
 
             <base-text class="mb-5">
-              Curabitur venenatis tortor erat, quis laoreet nis<br />
-              lobortis eget. Fusce tempor aucto.
+              What better way to learn about my Skills<br />
+              Than to just see my past experiences?
             </base-text>
           </v-col>
 
@@ -49,22 +49,33 @@ export default {
       {
         name: "Research",
         icon: "mdi-clipboard-text-outline",
-        blurb: "Curabitur et nisi semper,<br> pellent e sque ",
+        blurb: "Rolls Royce IOT department,<br />specialist researcher.",
       },
+
       {
-        name: "Design",
+        name: "Design/Architect",
         icon: "mdi-pencil-outline",
-        blurb: "Curabitur et nisi semper, <br>pellent.",
+        blurb: "Database schema design<br />for Temasek Polytechnic.",
       },
       {
-        name: "Development",
+        name: "Frontend",
         icon: "mdi-settings-outline",
-        blurb: "Curabitur et nisi semper, <br>pellent.",
+        blurb: "Data visualization dasboards<br />for various client projects.",
+      },
+      {
+        name: "Backend",
+        icon: "mdi-settings-outline",
+        blurb: "Data engineering solutions<br />focused on data processing.",
+      },
+      {
+        name: "Experienced",
+        icon: "mdi-clipboard-text-outline",
+        blurb: "Worked with different data<br />solutions from SQL to NoSQL.",
       },
       {
         name: "Support",
         icon: "mdi-account",
-        blurb: "Curabitur et nisi semper, <br>pellent.",
+        blurb: "Great team player across<br />many teams and companies.",
       },
     ],
   }),

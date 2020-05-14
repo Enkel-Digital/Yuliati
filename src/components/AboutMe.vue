@@ -9,29 +9,45 @@
         </base-heading>
 
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br />
-          scin elit. Etiam vulputate augue vel felis gravida<br />
-          porta. Lorem ipsum dolor sit amet.
+          I am passionate and keen to learn more about Data Engineering<br />
+          and Big Data solutions! With experiences spanning across various<br />
+          roles and companies, I am a great team player that fits right in.<br />
         </base-text>
 
+        <br />
+        <br />
+        <br />
+
         <base-subheading class="info--text">
-          Skills
+          Background
         </base-subheading>
 
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consecte tur adipi scin e<br />
-          lit. Etiam vulputate augu e vel felis gravida porta.
+          <span>
+            I studied Computer Engineering with a focus on IOT technologies,<br />
+            I started getting into Big Data and data processing after<br />
+            spending some time in the IOT scene where having a good data<br />
+            infrastructure was of upmost importance.<br /><br />
+            After my stint at Rolls Royce's IOT department, I started working<br />
+            as a Data Engineer under
+            <a href="https://consulting.enkeldigital.com"> Enkel Digital</a>
+            consulting where I built<br />
+            custom solutions for client projects.
+          </span>
         </base-text>
 
-        <v-alert outlined color="info">
-          <v-row v-for="(skill, i) in skills" :key="i" style="color: #69a1bb;">
-            <v-col class="text-uppercase" cols="6" v-text="skill.name" />
+        <br />
+        <br />
+        <br />
 
-            <v-col class="text-right" cols="6" v-text="`${skill.value}%`" />
+        <base-subheading class="info--text">
+          Goals & Aspirations
+        </base-subheading>
 
-            <v-progress-linear :value="skill.value" color="info" height="8" />
-          </v-row>
-        </v-alert>
+        <base-text class="mb-5">
+          I would love to explore opportunities in the startup scene<br />
+          and research institutes to work on cutting edge technologies!
+        </base-text>
       </v-col>
 
       <v-col class="hidden-sm-and-down" md="6">
@@ -40,24 +56,3 @@
     </v-row>
   </section>
 </template>
-
-<script>
-export default {
-  data: () => ({
-    skills: [
-      {
-        name: "Web Design",
-        value: 100,
-      },
-      {
-        name: "Web Development",
-        value: 75,
-      },
-      {
-        name: "Web Support",
-        value: 90,
-      },
-    ],
-  }),
-};
-</script>
