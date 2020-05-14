@@ -75,7 +75,7 @@ export default {
 
       // Save detail and send emails out
       fetch(
-        "http://localhost:5000/ekd-landing-page/us-central1/yuliGetInTouch-yuliGetInTouch",
+        "https://us-central1-ekd-landing-page.cloudfunctions.net/yuliGetInTouch-yuliGetInTouch",
         {
           method: "POST",
           mode: "no-cors",
